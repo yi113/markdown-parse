@@ -24,6 +24,8 @@ public class MarkdownParseTest {
             MarkdownParse.getLinks(Files.readString(Path.of("breaking_test.md"))));
             assertEquals(List.of(),
             MarkdownParse.getLinks(Files.readString(Path.of("test-file6.md"))));
+            assertEquals(List.of(),
+            MarkdownParse.getLinks(Files.readString(Path.of("test4.md"))));
             //assertEquals(List.of(),
            // MarkdownParse.getLinks(Files.readString(Path.of("test-file8.md"))));
         } catch (IOException e) {
