@@ -14,7 +14,7 @@ public class MarkdownParseTest {
     @Test
     public void testGetLinks(){
         try {
-            assertEquals(List.of("https://something.com","some-page.html"),
+            assertEquals(List.of("https://something.comeeee","some-page.html"),
             MarkdownParse.getLinks(Files.readString(Path.of("test-file.md"))));
             assertEquals(List.of(),
             MarkdownParse.getLinks(Files.readString(Path.of("breaking_test_2.md"))));
