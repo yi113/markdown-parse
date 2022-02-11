@@ -29,7 +29,7 @@ public class MarkdownParseTest {
             //assertEquals(List.of(),
            // MarkdownParse.getLinks(Files.readString(Path.of("test-file8.md"))));
         } catch (IOException e) {
-            // TODO Auto-generated catch block
+            // TODO Auto-generated catch blocksd
             e.printStackTrace();
         }
     }
